@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.listbox{
+    width: 960px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.list p{
+    padding: 20px 0 20px 20px;
+    font-size: 12px;
+}
+
+.list:nth-child(odd){
+    background-color: #cdcdcd;
+}
+
+.boxs{
+    height: 730px;
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+li{
+    height: 200px;
+    width: 30%;
+    display: inline-block;
+    background-color: yellow;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+    margin-bottom: 40px;
+}
+
+.boxs li:nth-child(1),li:nth-child(2){
+    margin-right: 5%;
+}
+
+.boxs ul:nth-child(1) li:nth-child(1), ul:nth-child(2) li:nth-child(2),ul:nth-child(3) li:nth-child(3){
+    background-color: orange;
+}
